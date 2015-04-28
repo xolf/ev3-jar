@@ -12,6 +12,7 @@ class Bot
         robot.exit();
     } 
     turnLeft(int ms)
+    //Duration in ms
     {
         LegoRobot robot = new LegoRobot();
         Gear gear = new Gear();
@@ -20,6 +21,7 @@ class Bot
         robot.exit();
     }
     turnRight(int ms)
+    //Duration in ms
     {
         LegoRobot robot = new LegoRobot();
         Gear gear = new Gear();
