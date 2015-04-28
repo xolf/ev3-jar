@@ -26,7 +26,7 @@ class Bot
         LegoRobot robot = new LegoRobot();
         Gear gear = new Gear();
         robot.addPart(gear);
-        gear.left(ms);
+        gear.right(ms);
         robot.exit();
     }
 
