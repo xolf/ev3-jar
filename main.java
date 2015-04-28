@@ -2,7 +2,7 @@ import ch.aplu.ev3.*;
 
 class Bot
 {
-    forWard(int ms)
+    public stativ void forWard(int ms)
     //Duration in ms
     {
         LegoRobot robot = new LegoRobot();
@@ -11,7 +11,7 @@ class Bot
         gear.forward(ms);
         robot.exit();
     } 
-    turnLeft(int ms)
+    public stativ void turnLeft(int ms)
     //Duration in ms
     {
         LegoRobot robot = new LegoRobot();
@@ -20,7 +20,7 @@ class Bot
         gear.left(ms);
         robot.exit();
     }
-    turnRight(int ms)
+    public stativ void turnRight(int ms)
     //Duration in ms
     {
         LegoRobot robot = new LegoRobot();
