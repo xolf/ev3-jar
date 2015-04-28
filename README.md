@@ -1,5 +1,4 @@
-# ev3-jar
-LEGO™ EV3 with Java
+# LEGO™ EV3 with Java
 ### Funtionen
 ##### `forWard(int ms)` 
 Bewegt den Bot für `ms` nach vorne
