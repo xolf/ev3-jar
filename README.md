@@ -1,4 +1,5 @@
 # LEGO™ EV3 with Java
+http://www.java-online.ch/lego/index.php?inhalt_links=home/nav_home.inc.php&inhalt_mitte=home/home.inc.php
 ### Funtionen
 ##### `forWard(int ms)` 
 Bewegt den Bot für `ms` nach vorne
