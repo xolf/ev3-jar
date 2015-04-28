@@ -1,18 +1,20 @@
 import ch.aplu.ev3.*;
 
-class Move
+class Bot
 {
-    forWard(int go)
+    forWard(int ms)
+    //Duration in ms
     {
         LegoRobot robot = new LegoRobot();
         Gear gear = new Gear();
         robot.addPart(gear);
-        gear.forward(go);
+        gear.forward(ms);
         robot.exit();
     }
 
     public static void main(String[] args)
     {
-        new Move();
+        Bot = new Bot();
+        Bot.forWard()
     }
 }  
