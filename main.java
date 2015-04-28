@@ -33,6 +33,6 @@ class Bot
     public static void main(String[] args)
     {
         Bot = new Bot();
-        Bot.forWard()
+        Bot.forWard(1000);
     }
 }  
