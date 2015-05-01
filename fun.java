@@ -10,6 +10,7 @@ class Fun
         robot.addPart(motA);
         motA.forward();
         Tools.delay(1000);
+        LCD.drawString("Grap a coffee!", 0, 4);
         robot.exit();
     }
     
