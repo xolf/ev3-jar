@@ -11,6 +11,8 @@ class Fun
         motA.forward();
         Tools.delay(1000);
         LCD.drawString("Grap a coffee!", 0, 4);
+        Tools.delay(1000);
+        LCD.drawString("Can you read me?!", 0, 4);
         robot.exit();
     }
     
