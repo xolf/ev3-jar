@@ -16,3 +16,7 @@ ms|Grad
 Bewegt den Bot für `ms` nach links
 ##### `turnRight(int ms)` 
 Bewegt den Bot für `ms` nach rechts
+
+
+[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/xolf/ev3-jar/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
+
